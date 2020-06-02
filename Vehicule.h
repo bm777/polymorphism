@@ -4,9 +4,11 @@
 class Vehicule
 {
     public:
-    void show() const;
+    virtual void show() const;
+
+
 
     protected:
-    int m_price
+    int m_price;
 };
 #endif // VEHICULE_H_INCLUDED

@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1591140696 source:/home/bm7/github/Polymorphism/main.cpp
+	<iostream>
+	"Vehicule.h"
+	"Moto.h"
+
+1591139591 source:/home/bm7/github/Polymorphism/Vehicule.cpp
+	<iostream>
+	"Vehicule.h"
+
+1591140924 /home/bm7/github/Polymorphism/Vehicule.h
+
+1591139991 source:/home/bm7/github/Polymorphism/Moto.cpp
+	<iostream>
+	"Moto.h"
+
+1591138605 /home/bm7/github/Polymorphism/Moto.h
+	"Vehicule.h"
+
+1591140540 source:/home/bm7/github/Polymorphism/Voiture.cpp
+	<iostream>
+	"Voiture.h"
+
+1591140590 /home/bm7/github/Polymorphism/Voiture.h
+	"Vehicule.h"
+

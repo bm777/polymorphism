@@ -5,7 +5,7 @@
 class Moto : public Vehicule
 {
     public:
-    void show() const;
+    virtual void show() const;
 
     protected:
     double m_vitesse; // velocity of the motorcycle, in french
