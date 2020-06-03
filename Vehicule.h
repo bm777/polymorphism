@@ -5,6 +5,9 @@ class Vehicule
 {
     public:
     virtual void show() const;
+    virtual ~Vehicule();
+    Vehicule(int price);
+
 
 
 

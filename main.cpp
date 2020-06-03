@@ -1,9 +1,10 @@
 #include <iostream>
 #include "Vehicule.h"
+#include "Voiture.h"
 #include "Moto.h"
 
 using namespace std;
-void selfPresent(Vehicule v)
+void selfPresent(Vehicule const& v)
 {
     v.show();
 }
@@ -11,10 +12,10 @@ void selfPresent(Vehicule v)
 int main()
 {
     cout << "----------------------------"<< endl;
-    Vehicule v;
-    selfPresent(v);
+    Voiture *v;
+    v = new Voiture(15000, 4);
+    v->show();
+    delete v;
 
-    Moto m;
-   selfPresent(m);
     return 0;
 }

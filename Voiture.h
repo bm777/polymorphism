@@ -5,7 +5,9 @@
 class Voiture: public Vehicule
 {
     public:
+    Voiture(int price, int doors);
     virtual void show() const;
+    virtual ~Voiture();
 
     protected:
     int m_doors; // number of door in the vehicule
