@@ -12,10 +12,10 @@ void selfPresent(Vehicule const& v)
 int main()
 {
     cout << "----------------------------"<< endl;
-    Voiture *v;
-    v = new Voiture(15000, 4);
-    v->show();
-    delete v;
+    vector<Vehicule*> listeVehicules;
+    listeVehicules.push_back(new Voiture(1500, 5));
+    listeVehicules.push_back(new Voiture(1200, 3));
+    listeVehicules.push_back(new Moto(200, 212.0));
 
     return 0;
 }
