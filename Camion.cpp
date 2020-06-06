@@ -11,3 +11,7 @@ void Camion::show() const
 {
     cout << "This is a Camion with " << m_weight << " t and it costs " << m_price << " euros" << endl;
 }
+int Camion::wheel() const
+{
+    return 6;
+}

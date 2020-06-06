@@ -13,3 +13,7 @@ Voiture::~Voiture()
 }
 Voiture::Voiture(int price, int doors): Vehicule(price), m_doors(doors)
 {}
+int Voiture::wheel() const
+{
+    return 4;
+}

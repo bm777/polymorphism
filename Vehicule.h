@@ -6,6 +6,7 @@ class Vehicule
     public:
     virtual void show() const;
     virtual ~Vehicule();
+    virtual int wheel() const = 0;
     Vehicule(int price);
 
 

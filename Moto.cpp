@@ -11,4 +11,8 @@ Moto::~Moto()
 {}
 Moto::Moto(int price, double vitesse): Vehicule(price), m_vitesse(vitesse)
 {}
+int Moto::wheel() const
+{
+    return 2;
+}
 

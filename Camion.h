@@ -8,6 +8,7 @@ class Camion: public Vehicule
         Camion(int price, double weight);
         ~Camion();
         void show() const;
+        virtual int wheel() const;
 
     private:
         double m_weight;

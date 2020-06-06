@@ -8,6 +8,7 @@ class Voiture: public Vehicule
     Voiture(int price, int doors);
     virtual void show() const;
     virtual ~Voiture();
+    virtual int wheel() const;
 
     protected:
     int m_doors; // number of door in the vehicule

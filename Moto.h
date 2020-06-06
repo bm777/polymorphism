@@ -7,6 +7,7 @@ class Moto : public Vehicule
     public:
     Moto(int price, double vitesse);
     virtual void show() const;
+    virtual int wheel() const;
     ~Moto();
 
     protected:

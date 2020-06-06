@@ -14,6 +14,7 @@ void selfPresent(Vehicule const& v)
 int main()
 {
     cout << "----------------------------"<< endl;
+    /*
     vector<Vehicule*> listeVehicules;
     listeVehicules.push_back(new Voiture(1500, 5));
     listeVehicules.push_back(new Voiture(1200, 3));
@@ -28,6 +29,12 @@ int main()
     {
         delete listeVehicules[i];   // release the i-th allocated memory case
         listeVehicules[i] = 0;      // We put the pointer at 0 to avoid issues
-    }
+    }*/
+
+    Vehicule* v(0);
+    Voiture voit(10000, 5);
+
+    v = &voit;
+    cout << v->wheel() << endl;
     return 0;
 }
