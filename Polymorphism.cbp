@@ -32,6 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Camion.cpp" />
+		<Unit filename="Camion.h" />
+		<Unit filename="Moto.cpp" />
+		<Unit filename="Moto.h" />
+		<Unit filename="Vehicule.cpp" />
+		<Unit filename="Vehicule.h" />
+		<Unit filename="Voiture.cpp" />
+		<Unit filename="Voiture.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
